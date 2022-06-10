@@ -1,10 +1,20 @@
-body{background-color: #030303;}
-.white {color: #fff;
+body{background-color: #fffbf7;}
+.white {color: black;
 font-size: 20px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;}
-h1{color:#025157;
+h1{color:#46484c;
 text-align: center;
 font-size: 32px;
-color:#b5b5b5;}
+color:#b5b5b5;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.sub{color:#46484c;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.prem{
+    color:#8b8b8bcc;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 button{color:white;
 background-color: #025157;}
