@@ -18,3 +18,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
 }
 button{color:white;
 background-color: #025157;}
+#asset{
+    border: 1px solid black;
+    text-align: center;
+    margin: auto;
+}
