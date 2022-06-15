@@ -6,23 +6,47 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Matcha</title>
     <link rel="stylesheet" href="styles.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,700&family=Fascinate&display=swap" rel="stylesheet">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src='main.js'></script>
 </head>
 
 <body>
-    <h1>Make your Business Dio</h1>
-    <!-- <h2 class="white">Titulo 2</h2>
-    <h3 class="white">Titulo 3</h3>
-    <h4 class="white">Titulo 4</h4> -->
-    <p class="sub">Crea tu blog, agrega noticias y <strong>chismes jugosos</strong></p>
-    <form>
-        <input type="email" autocomplete="email" >
-        <button>Try it now &rarr;</button>
-    </form>
-    <p class="prem">Blog better today con <strong>Matcha</strong></p>
-    <img width="100%" src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png">
-    <img id="asset" src="https://assets.bedu.org/contents/TECM0017FRFUV2_Fronted_fundamentals_V2/TECM0017FRFUV2_S1_3_1.png">
-</body>
+    <header class="header">
+        <!---Regresar a página principal-->
+        <a href="index.html" class="logo">
+            <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"/>
+        </a>
+        <!-- Menu de navegacion -->
+        <nav class="navbar">
+            <ul>
+                <!--  Sign In es un link que apunta a la dirección /login -->
+                <!-- la acción de Start free trial es un botón.-->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Segunda</a></li>
+                <li><a href="#">Tercera</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor de acciones de usuario -->
+        <div class="actions">
+            <a href="/login">Sign In</a>
+            <button>Start Free Trial &rarr;</button>
+        </div>
+    </header>
+    <main class="main">
+        <h1>Make your Business Dio</h1>
+        <p class="sub">Crea tu blog, agrega noticias y <strong>chismes jugosos</strong></p>
+        <form>
+            <input type="email" autocomplete="email" >
+            <button>Try it now &rarr;</button>
+        </form>
+        <p class="prem">Blog better today con <strong>Matcha</strong></p>
+        <img id="capterra" width="100%" src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png">
+        <img id="asset" src="https://assets.bedu.org/contents/TECM0017FRFUV2_Fronted_fundamentals_V2/TECM0017FRFUV2_S1_3_1.png">
+    </main>
+    </body>
 
 </html>
