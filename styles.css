@@ -119,3 +119,47 @@ article{
     right: 0;
     background-color: #fffbf7;
 }
+#grow{
+    background-color: #a1d683;
+    display: flex;
+    padding: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#grow-left{
+    margin:5em 0 5em 5em;
+    padding: 2em;
+    text-align: left;
+}
+#grow-left img{
+    width: 25em;
+    display: block;
+}
+#grow-right{
+    background-color: white;
+    margin:5em 5em 5em 0;
+    text-align: left;
+}
+#grow-left button{
+    padding: 12px 12px;
+    border-radius: 4px;
+}
+#grow-left h2{
+    font-size: 3em;
+}
+#grow-left p{
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+#grow-right img{
+    width: 20em;
+    display: block;
+}
+#grow-right div{
+    padding: 24px;
+}
+#grow-right button{
+    padding: 12px 12px;
+    border-radius: 4px;
+    margin: 2em 0;
+    width: 100%;
+}
