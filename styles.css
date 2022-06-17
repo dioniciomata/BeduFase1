@@ -7,6 +7,11 @@ h1{
     font-size: 46px;
     font-family: 'Fascinate', cursive;
 }
+h2{
+    color:#025157;
+    font-size: 22px;
+    font-family: 'Fascinate', cursive;
+}
 .sub{
     color:#46484c;
     font-size: 20px;
@@ -14,7 +19,7 @@ h1{
     text-align: center;
 }
 .prem{
-    color:#8b8b8bcc;
+    color:#025157;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -84,7 +89,33 @@ header > *{
     border: none;
 }
 .main{
-    margin-top: 150px 0;
+    margin-top: 250px 0;
     padding-top:150px;
     text-align: center;
+}
+.columna{
+    /* display: inline-block; */
+    width: 40%;
+    text-align: left;
+}
+.columna p{
+    color: #343434;
+    text-align: left;
+}
+.columna img{
+    width: 30%;
+    text-align: center;
+}
+article{
+    display:flex;
+    width: 70%;
+    align-items: center;
+    margin: 100px auto;
+}
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
