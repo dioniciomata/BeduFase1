@@ -118,6 +118,7 @@ article{
     left: 0;
     right: 0;
     background-color: #fffbf7;
+    z-index: 1;
 }
 #grow{
     background-color: #a1d683;
@@ -138,6 +139,7 @@ article{
     background-color: white;
     margin:5em 5em 5em 0;
     text-align: left;
+    position: relative;
 }
 #grow-left button{
     padding: 12px 12px;
@@ -150,11 +152,11 @@ article{
     font-size: 1.2em;
     line-height: 1.6;
 }
-#grow-right img{
+#pareja{
     width: 20em;
     display: block;
 }
-#grow-right div{
+#contenido{
     padding: 24px;
 }
 #grow-right button{
@@ -162,4 +164,14 @@ article{
     border-radius: 4px;
     margin: 2em 0;
     width: 100%;
+}
+#circle-logo{
+    position: absolute;
+    background-color: #f9da73;
+    padding: 50px;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    top: 180px;
+    right:10px;
 }
