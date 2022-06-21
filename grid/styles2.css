@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    
+    /* grid-template-columns: 200px 200px 200px; */
+}
+.gallery img{
+    width: 100%;
+}
