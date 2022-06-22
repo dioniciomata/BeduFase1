@@ -1,8 +1,8 @@
-/* *{
-    box-sizing: content-box;
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-} */
+}
 body{
     background-color: #e7e1cb;
 }
@@ -36,8 +36,12 @@ h3{
     text-align: center;
 }
 button{
-    color:white;
     background-color: #025157;
+    margin: 10px;
+    color: white;
+    padding: 12px 14px;
+    border-radius: 5px;
+    border: none;
 } 
 #asset{
     width: 50%;
@@ -47,8 +51,6 @@ button{
 }
 nav li, header div a, header div button {
     display: inline;
-    padding: 10px;
-    margin: 10px;
 }
 header{
     margin: 40px 20px 0;
@@ -94,10 +96,7 @@ header > *{
 }
 .actions button{
     background-color: #67b54b;
-    color: white;
-    padding: 12px 14px;
-    border-radius: 5px;
-    border: none;
+    color:white;
 }
 .main{
     margin-top: 250px 0;
@@ -117,7 +116,7 @@ header > *{
     width: 30%;
     text-align: center;
 }
-article{
+.col-video{
     display:flex;
     width: 70%;
     align-items: center;
@@ -200,21 +199,24 @@ article{
     background-color: white;
     border-radius: 4px;
     display: flex;
-    align-content: center;
-    justify-self: stretch;
     text-align: left;
     overflow: hidden;
-    margin: 32px auto;
+    margin: 16px;
 }
-.features .features-content{
+.features-content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     padding: 20px;
     flex-grow: 2;
     flex-shrink: 1;
     flex-basis: 0%;
 }
+.features-content > *{
+    margin-bottom: 1em;
+}
 .features figure{
     /* background-color: red; */
-    margin: 0;
 }
 .features h3{
     /* background-color: royalblue; */
@@ -235,18 +237,17 @@ article{
     flex-shrink: 1;
     flex-basis: 0%;
     position: relative;
-    top:-20px;
-    left:10px; 
     /* justify-self: end; */
+}
+.how-work{
+    padding: 3% 10%;
 }
 .explore{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* background-color: #f4f2ed; */
     display: grid;
-    grid-template: repeat(1, 1fr) / repeat(4, 25vw);
-    width: 100vw;
-    justify-content: center;
-    justify-items: stretch;
+    grid-template-columns: repeat(4, 25%);
+    width: 100%;
 }
 .explore-head{
     margin: 75px 0;
@@ -256,7 +257,10 @@ article{
     display: flex;
     flex-flow: column;
     overflow: hidden;
-    margin: 32px;
+    margin:16px;
+}
+.explore-icon{
+    margin:12px 0;
 }
 .explore-image{
     width: 25vw;
@@ -266,6 +270,9 @@ article{
 }
 .explore-content{
     margin: 0 24px 32px;
+}
+.explore-content > *{
+    margin: 1em 0;
 }
 .explore h3{
     font-family: 'Fascinate', cursive;

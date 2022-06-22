@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    padding: 15px;
+    border: 2px solid gray;
+    /* flex-direction: row-reverse;
+    flex-wrap: wrap; */
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    height: 400px;
+    align-content: flex-end;
+}
+.flex-container div{
+    background-color: aquamarine;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 32px;
+    border: 2px solid black;
+}
