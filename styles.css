@@ -1,3 +1,8 @@
+/* *{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+} */
 body{
     background-color: #e7e1cb;
 }
@@ -11,6 +16,12 @@ h2{
     color:#025157;
     font-size: 22px;
     font-family: 'Fascinate', cursive;
+}
+h3{
+    font-weight: 500;
+    color: #343434;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .sub{
     color:#46484c;
@@ -174,4 +185,94 @@ article{
     border-radius: 50%;
     top: 180px;
     right:10px;
+}
+.features{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #025157;
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); */
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    /* height: 660px; */
+    padding: 3% 10%;
+}
+.features article{
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-content: center;
+    justify-self: stretch;
+    text-align: left;
+    overflow: hidden;
+    margin: 32px auto;
+}
+.features .features-content{
+    padding: 20px;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+.features figure{
+    /* background-color: red; */
+    margin: 0;
+}
+.features h3{
+    /* background-color: royalblue; */
+}
+.features p{
+    /* background-color: yellow; */
+    color: #7e7e7e;
+    font-size: 16px;}
+.features a{
+    color: #67b54b;
+    text-decoration: none;
+    font-size: 16px;
+}
+.features .features-image{
+    height: 330px;
+    width: 40%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    position: relative;
+    top:-20px;
+    left:10px; 
+    /* justify-self: end; */
+}
+.explore{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: #f4f2ed; */
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(4, 25vw);
+    width: 100vw;
+    justify-content: center;
+    justify-items: stretch;
+}
+.explore-head{
+    margin: 75px 0;
+}
+.explore-article{
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    margin: 32px;
+}
+.explore-image{
+    width: 25vw;
+    height: 150px;
+    display: block;
+    overflow: hidden;
+}
+.explore-content{
+    margin: 0 24px 32px;
+}
+.explore h3{
+    font-family: 'Fascinate', cursive;
+    color:#025157;
+}
+.explore a{
+    color: #67b54b;
+    text-decoration: none;
+    font-size: 16px;
 }
