@@ -283,3 +283,38 @@ header > *{
     text-decoration: none;
     font-size: 16px;
 }
+
+/* mobile en vista vertical */
+@media (max-width: 575px){
+    body{
+        background-color: violet;
+    }
+}
+
+/* mobile en vista :horizontal */
+@media (min-width:576px) and (max-width: 767px){
+    body{
+        background-color: blue;
+    }
+}
+
+/* tablets */
+@media (min-width:768px) and (max-width: 991px){
+    body{
+        background-color: green;
+    }
+}
+
+/* grandes */
+@media (min-width:992px) and (max-width: 1199px){
+    body{
+        background-color: red;
+    }
+}
+
+/* extragrandes */
+@media (min-width:1200px){
+    body{
+        background-color: orange;
+    }
+}
