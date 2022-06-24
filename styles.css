@@ -289,6 +289,9 @@ header > *{
     body{
         background-color: violet;
     }
+    .navbar .actions{
+        display: none;
+    }
 }
 
 /* mobile en vista :horizontal */
