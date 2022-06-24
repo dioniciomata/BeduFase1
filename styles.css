@@ -100,7 +100,7 @@ header > *{
 }
 .main{
     margin-top: 250px 0;
-    padding-top:150px;
+    padding-top:250px;
     text-align: center;
 }
 .columna{
@@ -286,12 +286,15 @@ header > *{
 
 /* mobile en vista vertical */
 @media (max-width: 575px) {
+    .main{
+        padding-top: 120px;
+    }
     .navbar,
     .actions {
       display: none;
     }
     body{
-        background-color: violet;
+        /* background-color: violet; */
     }
     h1{
         font-size: 23px;
