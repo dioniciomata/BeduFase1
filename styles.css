@@ -285,14 +285,18 @@ header > *{
 }
 
 /* mobile en vista vertical */
-@media (max-width: 575px){
+@media (max-width: 575px) {
+    .navbar,
+    .actions {
+      display: none;
+    }
     body{
         background-color: violet;
     }
-    .navbar .actions{
-        display: none;
+    h1{
+        font-size: 23px;
     }
-}
+  }
 
 /* mobile en vista :horizontal */
 @media (min-width:576px) and (max-width: 767px){
