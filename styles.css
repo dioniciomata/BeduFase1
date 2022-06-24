@@ -70,11 +70,12 @@ header > *{
     width: 50%;
 }
 .navbar {
-  width: 60%;
-  text-align: left;
+  /* width: 60%; */
+  /* text-align: left; */
   font-weight: bold;
   font-family: sans-serif;
-  height: 45px;
+  color: #025157;
+  /* height: 45px;  */
 }
 .navbar a{
     color: #025157;
@@ -97,6 +98,11 @@ header > *{
 .actions button{
     background-color: #67b54b;
     color:white;
+}
+#sign-in{
+    position: relative;
+    top: 10px;
+    color:  #67b54b;
 }
 .main{
     margin-top: 250px 0;
@@ -299,10 +305,10 @@ header > *{
     .main{
         padding-top: 120px;
     }
-    .navbar,
+    /* .navbar,
     .actions {
       display: none;
-    }
+    } */
     body{
         /* background-color: violet; */
     }
@@ -351,27 +357,27 @@ header > *{
 /* mobile en vista :horizontal */
 @media (min-width:576px) and (max-width: 767px){
     body{
-        background-color: blue;
+        /* background-color: blue; */
     }
 }
 
 /* tablets */
 @media (min-width:768px) and (max-width: 991px){
     body{
-        background-color: green;
+        /* background-color: green; */
     }
 }
 
 /* grandes */
 @media (min-width:992px) and (max-width: 1199px){
     body{
-        background-color: red;
+        /* background-color: red; */
     }
 }
 
 /* extragrandes */
 @media (min-width:1200px){
     body{
-        background-color: orange;
+        /* background-color: orange; */
     }
 }
