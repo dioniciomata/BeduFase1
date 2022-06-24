@@ -289,6 +289,13 @@ header > *{
 
 /* mobile en vista vertical */
 @media (max-width: 575px) {
+    .features{
+        grid-template: repeat(4, 1fr) / 1fr;
+    }
+    .features-image{
+        display: none;
+    }
+
     .main{
         padding-top: 120px;
     }
@@ -318,6 +325,9 @@ header > *{
         height: 50px;
         margin-top: 10px;
     }
+    .publish p{
+        text-align: left;
+    }
     .col-video{
         flex-direction: column;
         text-align: left;
@@ -334,6 +344,7 @@ header > *{
         font-size: 1em;
         margin: 1em 0;
     }
+   
   }
 
 
