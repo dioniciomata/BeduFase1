@@ -130,6 +130,10 @@ header > *{
 }
 .publish{
     width: 40vw;
+    text-align: left;
+}
+.publish .sub, .publish .prem{
+    text-align: left;
 }
 .fixed-header{
     position: fixed;
@@ -343,7 +347,7 @@ header > *{
         text-align: center;
         margin: auto;
         position: relative;
-        left: -36vw;
+        left: -34vw;
     }
     .col-video .sub{
         text-align: left;
