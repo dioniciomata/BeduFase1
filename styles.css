@@ -118,9 +118,12 @@ header > *{
 }
 .col-video{
     display:flex;
-    width: 70%;
+    width: 80vw;
     align-items: center;
     margin: 100px auto;
+}
+.publish{
+    width: 40vw;
 }
 .fixed-header{
     position: fixed;
@@ -302,7 +305,37 @@ header > *{
     #capterra{
         width: 100%;
     }
+    .publish{
+        width: 80vw;
+    }
+    .publish > img{
+        width: 100%;
+    }
+    .publish > form{
+        flex-direction: column;
+    }
+    .publish > form > div{
+        height: 50px;
+        margin-top: 10px;
+    }
+    .col-video{
+        flex-direction: column;
+        text-align: left;
+    }
+    .col-video > .columna > video{
+        width: 100vw;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        left: -36vw;
+    }
+    .col-video .sub{
+        text-align: left;
+        font-size: 1em;
+        margin: 1em 0;
+    }
   }
+
 
 /* mobile en vista :horizontal */
 @media (min-width:576px) and (max-width: 767px){
