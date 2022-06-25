@@ -361,6 +361,35 @@ header > *{
         grid-template: repeat(4, 1fr) / 1fr;
         width: 100%;
     }
+    #grow{
+        padding: 0.1em;
+        flex-direction: column;
+    }
+    #grow-left{
+        margin:0;
+    }
+    #grow-left img{
+        width: 100%;
+        margin-top: 1em;
+        display: block;
+    }
+    #grow-right{
+        margin: 2em auto 4em;
+        width: 90%;
+
+    }
+    #pareja{
+        width: 100%;
+    }
+    #grow-right button{
+        padding: 1em;
+        border-radius: .25em;
+        margin: 2em 0;
+        width: 100%;
+    }
+    #circle-logo{
+        top: 55vw;
+    }
   }
 
 
@@ -368,6 +397,9 @@ header > *{
 @media (min-width:576px) and (max-width: 767px){
     body{
         /* background-color: blue; */
+    }
+    #circle-logo{
+        top: 75vw;
     }
 }
 
