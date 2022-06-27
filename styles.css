@@ -197,7 +197,7 @@ header > *{
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    /* top: 180px; */
+    top: 20vw;
     right:10px;
 }
 .features{
@@ -222,7 +222,7 @@ header > *{
     display: flex;
     flex-flow: column;
     justify-content: center;
-    padding: 1.3em;
+    /* padding: 1.3em; */
     flex-grow: 2;
     flex-shrink: 1;
     flex-basis: 0%;
@@ -388,7 +388,8 @@ header > *{
         width: 100%;
     }
     #circle-logo{
-        top: 55vw;
+        position: abstolute;
+        top: 50%;
     }
   }
 
