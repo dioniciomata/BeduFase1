@@ -466,6 +466,10 @@ header > *{
     #circle-logo{
         top: 75vw;
     }
+    .explore{
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    }
+    
 }
 
 /* tablets */
@@ -502,9 +506,7 @@ header > *{
         left: 80%;
     }
     .explore{
-        display: grid;
         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-        width: 100%;
     }
     body{
         /* background-color: green; */
@@ -514,9 +516,7 @@ header > *{
 /* grandes */
 @media (min-width:992px) and (max-width: 1199px){
     .explore{
-        display: grid;
         grid-template: repeat(2, 1fr) / repeat(2, 1fr);
-        width: 100%;
     }
     body{
         /* background-color: red; */
