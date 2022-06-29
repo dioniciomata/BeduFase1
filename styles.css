@@ -148,14 +148,16 @@ header > *{
 .success-stories {
     background-color: #a1d683;
     padding: 5% 15%;
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 4fr 8fr;
     align-items: center;
     justify-content: space-around;
     text-align: left;
   }
   
   .success-stories .overview {
-    flex: 2;
+    /* flex: 2; */
     padding-right: 100px;
   }
   
@@ -187,7 +189,7 @@ header > *{
     max-width: 100%;
   }
   .success-stories .stories-carousel{
-    flex: 2;
+    /* flex: 2; */
   }
   .success-stories .stories-carousel .card .card-media{
     position: relative;
