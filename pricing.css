@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e7e1cb;
+}
+h1{
+    color:#025157;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Fascinate', cursive;
+}
+h2{
+    color:#025157;
+    font-size: 1.3em;
+    font-family: 'Fascinate', cursive;
+}
+h3{
+    font-weight: 500;
+    color: #343434;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    padding: .5em 1em;
+}
+button{
+    background-color: #025157;
+    /* margin: 10px; */
+    color: white;
+    padding: 0.7em;
+    border-radius: .3em;
+    border: none;
+} 
+nav li, header div a, header div button {
+    display: inline;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    width: 50%;
+}
+.navbar {
+  /* width: 60%; */
+  /* text-align: left; */
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #025157;
+  /* height: 45px;  */
+}
+.navbar a{
+    color: #025157;
+    text-decoration: none;
+    margin: 0 1.5em;
+}
+.actions{
+    width: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: right;
+}
+.actions a, .actions button{
+    color:#67b54b;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 .8em;
+}
+.actions button{
+    background-color: #67b54b;
+    color:white;
+}
+#sign-in{
+    position: relative;
+    /* top: 10px; */
+    color:  #67b54b;
+}
+.main{
+    padding-top:15em;
+    text-align: center;
+}
+.cabeza{
+    max-width: 75%;
+
+}
+.powered{
+    margin-top: 6em;
+}
+.sub{
+    color:#46484c;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    text-align: center;
+}
+.faq {
+  margin-top: 50px;
+  padding-bottom: 120px;
+}
+
+.faq h2 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+}
+
+.faq .card-header {
+  background-color: white;
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.faq h2 > button {
+  color: #025157;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.faq .card .card-body a {
+  color: #6abf4b;
+}
+
+@media (max-width: 575px) {
+    .success-stories {
+        flex-direction: column;
+        padding: 5% 15px;
+      }
+    .navbar,
+    #actions{
+        text-align: center !important;
+    }
+}
+@media (min-width:576px) and (max-width: 767px){
+   
+    .navbar,
+    #actions{
+        text-align: center !important;
+    }
+}
+@media (min-width:768px) and (max-width: 991px){
+    .navbar{
+        text-align: center;
+    }
+}

@@ -475,9 +475,9 @@ header > *{
 /* mobile en vista :horizontal */
 @media (min-width:576px) and (max-width: 767px){
     .success-stories {
-        flex-direction: column;
-        padding: 5% 15px;
-      }
+    flex-direction: column;
+    padding: 5% 15px;
+    } 
     .navbar,
     #actions{
         text-align: center !important;
