@@ -1,0 +1,22 @@
+{
+  "name": "bedufase1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dioniciomata/BeduFase1.git"
+  },
+  "author": "Dionicio Mata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dioniciomata/BeduFase1/issues"
+  },
+  "homepage": "https://github.com/dioniciomata/BeduFase1#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
