@@ -1,0 +1,16 @@
+// _global.scss
+$dark-green-title: #044145;
+$dark-green-text: #135359;
+$light:#e6d7d7;
+$light-green: #67b54b;
+$dark-gray: #4a4a4a;
+$light-gray: #979797;
+
+// Fuentes
+$font-title:  "Fascinate", cursive;
+ 
+// Placeholder
+%base-title{
+    font-family: $font-title;
+    color: $dark-green-title;
+}

@@ -1,0 +1,56 @@
+.blog .title {
+  font-family: "Fascinate", cursive;
+  color: #044145;
+}
+
+/** main.scss */
+.blog {
+  background-color: #e6d7d7;
+  max-width: unset;
+  padding: 5% 10%;
+}
+.blog .process-list {
+  margin: 40px;
+  text-align: left;
+}
+.blog .process-list .process {
+  margin-bottom: 25px;
+}
+.blog .process-list .process > div > h3 {
+  color: #044145;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog .process-list .process > div > p {
+  color: #135359;
+  margin: 0;
+}
+.blog .process-list .process .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+.blog .process-list .process .process-icon img {
+  height: 100%;
+}
+.blog button {
+  height: auto;
+  border-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.card .card-title {
+  color: #4a4a4a;
+}
+.card .metadata {
+  color: #979797;
+}
+.card .metadata .category {
+  color: #67b54b;
+}
+
+/*# sourceMappingURL=output.css.map */
