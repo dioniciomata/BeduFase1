@@ -64,4 +64,44 @@
   margin-left: 5px;
 }
 
+.tryit {
+  padding: 50px 0;
+  background-color: #67b54b;
+}
+.tryit h2 {
+  color: #025157;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Fascinate", cursive;
+}
+.tryit button {
+  padding: 0.7em 1.4em;
+}
+.tryit .prem {
+  font-size: 14px;
+  color: #e6d7d7;
+}
+
+.days .container {
+  border-radius: 1em;
+  padding: 4em 4em 2em;
+  margin: 3em;
+  background-color: #025157;
+  text-align: left;
+}
+.days .container .row .col h2 {
+  color: #e6d7d7;
+  font-size: 2.2em;
+}
+.days .container .row .col p {
+  color: #e6d7d7;
+  margin-top: 0.5em;
+}
+.days .container .row .col span {
+  color: #67b54b;
+}
+.days .container .row .col button {
+  background-color: #67b54b;
+}
+
 /*# sourceMappingURL=output.css.map */

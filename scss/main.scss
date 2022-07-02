@@ -79,3 +79,50 @@
     }
     
 }
+.tryit{
+    padding:50px 0;
+    background-color: $light-green;
+
+    h2{
+        color:#025157;
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Fascinate', cursive;
+    }
+    button{
+        padding: 0.7em 1.4em;
+    }
+    .prem{
+        font-size: 14px;
+        color: $light ;
+    }
+}
+.days{
+    .container{
+        border-radius: 1em;
+        padding: 4em 4em 2em;
+        margin:3em;
+        background-color: #025157;
+        text-align: left;
+
+        .row{
+            .col{
+                h2{
+                    color: $light;
+                    font-size: 2.2em;
+                }
+                p{
+                    color: $light;
+                    margin-top: .5em;
+                }
+                span{
+                    color: $light-green;
+                }
+                button{
+                    background-color: $light-green;
+                }
+
+            }
+        }
+    }
+}
