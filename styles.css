@@ -46,6 +46,9 @@ button{
     border-radius: .3em;
     border: none;
 } 
+button:hover{
+    background-color: #67b54b;
+}
 #asset{
     width: 75%;
 }
@@ -370,6 +373,15 @@ header > *{
     text-decoration: none;
     font-size: 1em;
 }
+
+.top-features h2{
+    text-align: center !important;
+    font-size: 3em;
+}
+.top-features  p{
+    font-size: 1em;
+}
+
 
 /* mobile en vista vertical */
 @media (max-width: 575px) {
